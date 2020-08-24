@@ -56,6 +56,7 @@
 #main_logo
 {
     display: block;
+    padding: 5px;
 }
 
 
@@ -80,7 +81,7 @@
 	background-color: rgb(250,250,250);
 	transition-duration: 0.2s;
     }
-    
+
     #navlogo_wrap
     {
 	width: 100%;
@@ -137,7 +138,7 @@
     {
 	border-bottom: 3px solid rgb(40,100,200);
     }
-    
+
     #navlogo_wrap
     {
 	width: 50%;
@@ -167,6 +168,6 @@
     }
     #navlogo a
     {
-	font-size: 60px;
+	font-size: 20px;
     }
 }
