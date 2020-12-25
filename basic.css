@@ -120,6 +120,12 @@ pre {
     text-align: center;
 }
 
+.cancelled {
+  background-color: rgb(200,200,200);
+  text-decoration:line-through;
+  color: black;
+}
+
 @media screen and (min-width: 500px) {
     h1 {
 	     font-size: 60px;
