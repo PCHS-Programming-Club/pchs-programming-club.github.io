@@ -122,7 +122,7 @@ pre {
 
 .cancelled {
   background-color: rgb(200,200,200);
-  text-decoration:line-through;
+  /*text-decoration:line-through;*/
   color: black;
 }
 
