@@ -7,6 +7,7 @@
 {
     margin-top: 25px;
     width: 100%;
+        font-family: 'Source Code Pro', sans-serif;
 }
 
 
@@ -21,11 +22,11 @@
     {
 	width: 100%;
 	height: 40px;
-	border-bottom: 3px solid rgb(40,100,200);
+	border-bottom: 3px solid #1C77C3;
 	text-align: center;
 	line-height: 40px;
 	font-size: 20px;
-	color: rgb(40,100,200);
+	color: #1C77C3;
     }
 }
 
@@ -34,13 +35,12 @@
 {
     #botnav
     {
-	background-color: rgb(250,250,250);
     }
     #navmap
     {
 	width: 100%;
     text-align: left;
-	border-top: 5px solid rgb(40,100,200);
+	border-top: 5px solid #1C77C3;
     }
     #navmap *
     {
@@ -49,7 +49,7 @@
     #navmap td
     {
 	overflow: hidden;
-	font-size: 1.2vw;
+	font-size: 20px;
     }
     #navmap a
     {
@@ -57,7 +57,7 @@
 	padding: 32% 3%;
 	width: 100%;
 	display: block;
-	color: rgb(100,100,100);
+	color: #F2F5FF;
 	font-weight: lighter;
     }
     #navmap_home
@@ -67,12 +67,12 @@
     }
     #navmap_home a /* increases importance */
     {
-	font-size: 2vw;
+	font-size: 20px;
     }
     #navmap_current a
     {
 	font-weight: bold;
-	color: rgb(40,100,200);
+	color: #1C77C3;
     }
     #navmap_home_current
     {
@@ -81,31 +81,31 @@
     }
     #navmap_home_current a
     {
-	font-size: 2vw;
+	font-size: 20px;
 	font-weight: bold;
-	color: rgb(40,100,200);
+	color: #1C77C3;
     }
 
     #navmap:hover #navmap_current a
     {
-	color: rgb(100,100,100);
+	color: #F2F5FF;
     }
     #navmap:hover #navmap_home_current a
     {
-	color: rgb(100,100,100);
+	color: #F2F5FF;
     }
     #navmap td:hover a
     {
-	color: rgb(40,100,200);
+	color: #1C77C3;
     }
     /* fix for hover over navmap_current; specify #navmap to increase importance */
     #navmap #navmap_current:hover a
     {
-	color: rgb(40,100,200);
+	color: #1C77C3;
     }
     #navmap #navmap_home_current:hover a
     {
-	color: rgb(40,100,200);
+	color: #1C77C3;
     }
 
     #navup
@@ -116,4 +116,12 @@
         margin:0;
         padding: 0;
     }
+}
+@media screen and (min-width: 1200px) {
+  #navmap_home_current a
+  {
+font-size: 20px;
+font-weight: bold;
+color: #1C77C3;
+  }
 }

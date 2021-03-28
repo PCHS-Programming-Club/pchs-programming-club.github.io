@@ -12,7 +12,8 @@
     <title>About PCHSPT</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../basic.css" />
     <link rel="stylesheet" type="text/css" href="../topnav.css" />
     <link rel="stylesheet" type="text/css" href="../imgtxt.css" />
@@ -23,28 +24,29 @@
 
 
   <body>
+    <div id="topnav">
+      <div id="navlogo_wrap">
+        <div id="navlogo">
+
+            <a href="index.html"><img id="main_logo" src="../logo.png" alt="Logo" /></a>
+            <a href="index.html">PC Programming Club</a>
+
+        </div>
+      </div>
+
+<table id="navbar">
+  <tr>
+    <td><a href="about.html">About</a></td>
+    <td><a href="comps.html">Competitions</a></td>
+    <td><a href="resrc.html">Resources</a></td>
+  </tr>
+</table>
+
+
+
+    </div>
 
     <div id="main">
-
-      <div id="topnav">
-
-      	<table id="navbar">
-      	  <tr>
-      	    <td><a href="about.html">About</a></td>
-      	    <td><a href="comps.html">Competitions</a></td>
-      	    <td><a href="resrc.html">Resources</a></td>
-      	  </tr>
-      	</table>
-
-	<div id="navlogo_wrap">
-	  <div id="navlogo">
-
-        <a href="index.html"><img id="main_logo" src="../logo.png" alt="Logo" /></a>
-  	    <a href="index.html">PC Programming Club</a>
-
-	  </div>
-	</div>
-  </div>
 
   <div class="notification"><p>Due to the circumstances of the 2020-2021 school year, there will be no in-person meetings for the remainder of the year. All meeting information will be sent through the remind: @pchsprog</p></div>
       <h1><span class="hsub">PCHS</span><br />Programming Club</h1>
@@ -79,10 +81,13 @@
       </ul>
       <!-- BOF -->
 
+    </div>
+    <div id="botnav">
+
       <table id="navmap">
         <tr>
-            <td><a href="index.html">Home</a></td>
-            <td id="navmap_current"><a href="about.html">About</a></td>
+            <td id="navmap_current"><a href="index.html">Home</a></td>
+            <td><a href="about.html">About</a></td>
         </tr>
         <tr>
             <td><a href="comps.html">Competitions</a></td>
@@ -94,8 +99,8 @@
         </tr>
       </table>
 
-	<a href="#top"><div id="navup">&#8682</div></a>
-      </div>
+<a href="#top"><div id="navup">&#8682</div></a>
+
     </div>
   </body>
 </html>

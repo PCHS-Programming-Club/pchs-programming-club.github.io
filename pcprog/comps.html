@@ -5,7 +5,8 @@
     <title>PCHSPT Competitions</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../basic.css" />
     <link rel="stylesheet" type="text/css" href="../topnav.css" />
     <link rel="stylesheet" type="text/css" href="../imgtxt.css" />
@@ -15,27 +16,29 @@
   </head>
 
   <body>
-    <div id="main">
-      <div id="topnav">
+    <div id="topnav">
+      <div id="navlogo_wrap">
+        <div id="navlogo">
 
-      	<table id="navbar">
-      	   <tr>
-      	      <td><a href="about.html">About</a></td>
-              <td><a href="comps.html">Competitions</a></td>
-      	      <td><a href="resrc.html">Resources</a></td>
-      	   </tr>
-      	</table>
+            <a href="index.html"><img id="main_logo" src="../logo.png" alt="Logo" /></a>
+            <a href="index.html">PC Programming Club</a>
 
-      	<div id="navlogo_wrap">
-      	   <div id="navlogo">
-
-              <a href="index.html"><img id="main_logo" src="../logo.png" alt="Logo" /></a>
-        	    <a href="index.html">PC Programming Club</a>
-
-    	     </div>
-  	    </div>
-
+        </div>
       </div>
+
+<table id="navbar">
+  <tr>
+    <td><a href="about.html">About</a></td>
+    <td><a href="comps.html">Competitions</a></td>
+    <td><a href="resrc.html">Resources</a></td>
+  </tr>
+</table>
+
+
+
+    </div>
+
+    <div id="main">
       <div class="notification"><p>If you want to participate in a team competition but currently don't have a team, fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLScpHIqNpDSalkUYrztVUHK8DJbjp7sAnVFdHtQVeuTM8WTWvg/viewform" target="_blank">this form</a> and we'll partner you with other Programming Club members!</p></div>
       <h1><span class="hsub">Computer Science</span><br />Competitions</h1>
 
@@ -197,15 +200,15 @@
           <th>Date</th>
           <th>Event</th>
         </tr>
-        <tr>
-            <td><s>Dec 18-21</s></td>
-            <td><s>First Contest</s></td>
+        <tr class="cancelled">
+            <td>Dec 18-21</td>
+            <td>First Contest</td>
         </tr>
-        <tr>
-            <td><s>Jan 22-25</s></td>
-            <td><s>Second Contest</s></td>
+        <tr class="cancelled">
+            <td>Jan 22-25</td>
+            <td>Second Contest</td>
         </tr>
-        <tr>
+        <tr class="cancelled">
             <td>Feb 26-Mar 1</td>
             <td>Third Contest</td>
         </tr>
@@ -340,26 +343,26 @@
       <h2>Got another competition?</h2>
       <p>If you know another competition suitable for high school students, please let us know! Email aywang2@students.wcpss.net.</p>
 
-      <div id="botnav">
+    </div>
+    <div id="botnav">
 
-        <table id="navmap">
-          <tr>
-              <td><a href="index.html">Home</a></td>
-              <td><a href="about.html">About</a></td>
-          </tr>
-          <tr>
-              <td id="navmap_current"><a href="comps.html">Competitions</a></td>
-              <td><a href="rtpprogcomp.html">RTP Prog Comp</a></td>
-          </tr>
-          <tr>
-              <td><a href="resrc.html">Resources</a></td>
-              <td><a href="../tools/ascii.html">ASCII Table</a></td>
-          </tr>
-        </table>
+      <table id="navmap">
+        <tr>
+            <td id="navmap_current"><a href="index.html">Home</a></td>
+            <td><a href="about.html">About</a></td>
+        </tr>
+        <tr>
+            <td><a href="comps.html">Competitions</a></td>
+            <td><a href="rtpprogcomp.html">RTP Prog Comp</a></td>
+        </tr>
+        <tr>
+            <td><a href="resrc.html">Resources</a></td>
+            <td><a href="../tools/ascii.html">ASCII Table</a></td>
+        </tr>
+      </table>
 
-    	<a href="#top"><div id="navup">&#8682</div></a>
+<a href="#top"><div id="navup">&#8682</div></a>
 
-      </div>
     </div>
   </body>
 
