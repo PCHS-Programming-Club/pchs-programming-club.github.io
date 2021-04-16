@@ -9,14 +9,14 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #2e3136;
+    background-color: rgb(61, 64, 74);
     color: white;
 }
 
 #main {
   top: 0;
     width: 100%;
-    background-color: #232529;
+    background-color: rgb(46, 49, 59);
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 150px;
@@ -110,8 +110,8 @@ pre {
 
 .datatable {
     border-top: 5px solid #1C77C3;
-    background-color: #CCCCCC;
-    color: black;
+    background-color: rgb(69, 75, 82);
+    color: white;
 }
 .datatable th {
     padding: 8px;
@@ -136,7 +136,8 @@ pre {
 }
 
 .cancelled {
-  background-color: rgb(15,15,15);
+  background-color: rgb(39, 44, 51);
+
   /*text-decoration:line-through;*/
   color: #BBBBBB;
 }

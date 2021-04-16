@@ -7,7 +7,8 @@
 #topnav {
     overflow: hidden; /* elements are float and are not counted in height */
     width: 100%;
-    background-color: rgb(61, 64, 74, .9);
+    background-color: rgb(35, 36, 45, .9);
+    /*background-color: rgb(44, 55, 77, .9);*/
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +17,8 @@
     box-shadow: 0 8px 6px -6px rgb(0,0,0,.5);
 
 }
+
+
 
 /* nav bar */
 #navbar {
@@ -27,11 +30,12 @@
 }
 #navbar a {
     display: block;
-    color: #F2F5FF;
+    color: #39A9DB;
+
     font-family: 'Source Code Pro', sans-serif;
 }
 #navbar td:hover a {
-    color: #1C77C3;
+    color: #F2F5FF;
     transition-duration: 0.2s;
 }
 
@@ -72,11 +76,11 @@
   #navbar td {
   width: 100px;
 	padding: 5px;
-  border-bottom: 5px solid #F2F5FF;
+  border-bottom: 5px solid #1C77C3;
 	font-size: 3vw;
   }
   #navbar td:hover {
-	border-bottom: 5px solid #1C77C3;
+	border-bottom: 5px solid #F2F5FF;
 	transition-duration: 0.2s;
   }
   #navlogo_wrap {
@@ -127,13 +131,13 @@
     }
     #navbar td {
     	font-size: 1.8vw;
-    	border-bottom: 3px solid #F2F5FF;
+    	border-bottom: 3px solid #1C77C3;
     }
     #navbar a {
 	    line-height: 64px;
     }
     #navbar td:hover {
-      border-bottom: 3px solid #1C77C3;
+      border-bottom: 3px solid #F2F5FF;
     }
     #navlogo_wrap {
 	    width: 50%;
